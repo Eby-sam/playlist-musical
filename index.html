@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Playliste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="grandContainer">
+        <div id="container">
+            <h1>Playlist</h1>
+
+            <button id="createPlaylist"> add playlist </button>
+            <div id="containerCreatePlaylist">
+                <label for="name">Nom de la playlist</label>
+                <input type="text" id="name" required>
+                <label for="urlImage">URL de l'image</label>
+                <input type="text" id="urlImage" required>
+                <button id="enter1">Entrer</button>
+            </div>
+            <div id="musics"></div>
+            <div id="containerCreateMusics">
+                <label for="title">Titre </label>
+                <input type="text" id="title" required>
+                <label for="linkYtb">Lien Youtube</label>
+                <input type="text" id="linkYtb" required>
+                <label for="integrationVideo">code d'intégration</label>
+                <input type="text" id="integrationVideo" required>
+                <button id="enter2">Entrer</button>
+            </div>
+        </div>
+        <div id="musicPlaylist">
+            <div id="containerSongs">
+                <div class="songs">
+                    <p class="title">Titre</p>
+                    <p class="link">Lien YouTube</p>
+                    <p class="play">Play</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
